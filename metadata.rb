@@ -9,7 +9,7 @@ version          '0.1.0'
 recipe "wildfly::default", ""
 recipe "wildfly::install", ""
 recipe "wildfly::mysql_connector", ""
-recipe :wildfly::mysql_datasources", ""
+recipe "wildfly::mysql_datasources", ""
 
 supports 'centos'
 
